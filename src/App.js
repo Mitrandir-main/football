@@ -1,13 +1,17 @@
 import logo from './logo.svg';
+import Ronaldo from "./images/ronaldo.jpg"
 import './App.css';
+import Menu from "./menu.js"
 
 function App() {
   return (
     <div className="App">
+      <Menu />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={Ronaldo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          football tutorials
+
         </p>
         <a
           className="App-link"
